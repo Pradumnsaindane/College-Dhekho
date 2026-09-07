@@ -1,0 +1,11 @@
+{
+  // --- NEW ADDITIONS FOR TS STRICTNESS ---
+  "typescript.validate.enable": true,
+  "typescript.noImplicitAny": true, 
+  "typescript.strictNullChecks": true,
+  "typescript.useUnknownInCatchVariables": true,
+  "typescript.checkJs": true, // Optional: enables checking of .js files too
+
+  // --- EXISTING SETTING ---
+  "css.lint.unknownAtRules": "ignore"
+}
